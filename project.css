@@ -1,0 +1,165 @@
+@font-face {
+    font-family: inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+body{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(Attractive\ bearded\ man\ portrait\ stock\ photo\ containing\ bearded\ and\ man\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+.home{
+    border-bottom: 2px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 17px;
+    align-items: left;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.para{
+    display: block;
+    margin-top: 70px;
+}
+.para h1{
+    font-size: 4rem;
+}
+.para button{
+    width: 125px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #F5203D;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.first{
+    width: 30px;
+    height: 2px;
+    background-color: #F5203D;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container .vision{
+    background-color: #F5203D;
+    color: #fff;
+    height: 250px;
+    width: 400px;
+}
+.vision i{
+    margin: 25px 0 35px 20px;
+    font-size: 30px;
+
+}
+.vision h3{
+    margin: 0 0 9px 20px;
+}
+.two{
+    background-color: #fff;
+    width: 30px;
+    height: 2px;
+    margin: 0 0 15px 20px;
+}
+
+.vision p{
+    margin: 0 0 15px 20px;
+}
+
+.container .design{
+    background-color: #212122;
+    color: #fff;
+    height: 250px;
+    width: 400px;
+}
+.design i{
+    margin: 25px 0 35px 20px;
+    color: #F5203D;
+    font-size: 30px;
+
+}
+
+.design h3{
+    margin: 0 0 9px 20px;
+}
+
+.three{
+    background-color: #F5203D;
+    width: 30px;
+    height: 2px;
+    margin: 0 0 15px 20px;
+}
+
+.design p{
+    margin: 0 7px 15px 20px;
+}
+
+
+.container .solution{
+    background-color: #212122;
+    color: #fff;
+    height: 250px;
+    width: 400px;
+    margin-left: 8px;
+}
+.solution i{
+    margin: 25px 0 35px 20px;
+    color: #F5203D;
+    font-size: 30px;
+}
+.solution h3{
+    margin: 0 0 9px 20px;
+}
+
+.four{
+    background-color: #F5203D;
+    width: 30px;
+    height: 2px;
+    margin: 0 0 15px 20px;
+}
+.solution p{
+    margin: 0 0px 15px 20px;
+}
+
